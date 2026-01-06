@@ -1,0 +1,145 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #fffdf5;
+}
+
+/* HEADER */
+.auth-header {
+  padding: 20px 120px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.auth-header img {
+  height: 28px;
+}
+
+/* WRAPPER */
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+/* CARD */
+.auth-card {
+  background: #fff;
+  width: 100%;
+  max-width: 420px;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.auth-card h2 {
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 24px;
+}
+
+/* FORM */
+form label {
+  font-size: 13px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.phone-field {
+  display: flex;
+  gap: 8px;
+}
+
+.phone-field select {
+  width: 30%;
+}
+
+.phone-field input {
+  width: 70%;
+}
+
+.forgot {
+  font-size: 12px;
+  text-align: right;
+  display: block;
+  margin-bottom: 16px;
+  color: #555;
+}
+
+/* BUTTON */
+.btn-primary {
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: #eaffea;
+  color: #22c55e;
+  border: none;
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.divider {
+  text-align: center;
+  font-size: 12px;
+  margin: 16px 0;
+  color: #aaa;
+}
+
+/* GOOGLE */
+.btn-google {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.btn-google img {
+  width: 18px;
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .auth-card {
+    padding: 24px;
+  }
+}
